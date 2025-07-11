@@ -40,16 +40,16 @@ This is a sample data and using this sample data we will make inferences for the
 The dataset contains 1,000 records across 10 columns, with no missing values. Here’s a quick summary of the numerical columns:
 
 **Column Summary:**
-Theme: dark or light
-Click Through Rate: The proportion of the users who click on links or buttons on the website.
-Conversion Rate: The percentage of users who signed up on the platform after visiting for the first time.
-Bounce Rate: The percentage of users who leave the website without further interaction after visiting a single page.
-Scroll Depth: The depth to which users scroll through the website pages.
-Age: The age of the user.
-Location: The location of the user.
-Session Duration: The duration of the user’s session on the website in seconds.
-Purchases: Whether the user purchased the book (Yes/No).
-Added_to_Cart: Whether the user added books to the cart (Yes/No).
+- Theme: dark or light
+- Click Through Rate: The proportion of the users who click on links or buttons on the website.
+- Conversion Rate: The percentage of users who signed up on the platform after visiting for the first time.
+- Bounce Rate: The percentage of users who leave the website without further interaction after visiting a single page.
+- Scroll Depth: The depth to which users scroll through the website pages.
+- Age: The age of the user.
+- Location: The location of the user.
+- Session Duration: The duration of the user’s session on the website in seconds.
+- Purchases: Whether the user purchased the book (Yes/No).
+- Added_to_Cart: Whether the user added books to the cart (Yes/No).
 
 
 ### Key Question:
@@ -68,8 +68,6 @@ Added_to_Cart: Whether the user added books to the cart (Yes/No).
 | Session Duration     | *varies*    | *varies*| *(depends on your dataset)*    |
 
 > ✅ **Interpretation**: The only metric showing a significant difference is **Click Through Rate**. All other differences are likely due to chance (p-value > 0.05).
-
----
 
 
 
