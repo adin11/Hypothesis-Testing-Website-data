@@ -85,7 +85,7 @@ The dataset contains 1,000 records across 10 columns, with no missing values. He
 | **Session Duration**   |        *varies* |    *varies* | ℹ️ *(Depends on your dataset; update with actual results.)*        |
 
 > ✅ **Conclusion**:
-> Among all metrics, **only Click Through Rate shows a statistically significant difference** between the Light and Dark themes (p < 0.05). All other metrics show no statistically meaningful difference, implying that observed variations are likely due to random chance rather than the UI theme.
+> Among all metrics, **only Click Through Rate shows a statistically significant difference** between the Light and Dark themes (p < 0.05). All other metrics show no statistically meaningful difference, meaning observed variations are likely due to random chance rather than the UI theme.
 
 ---
 
