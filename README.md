@@ -58,28 +58,36 @@ The dataset contains 1,000 records across 10 columns, with no missing values. He
 
 ## 📈 Summary of Statistical Test Results
 
-| **Metric**             | **Light Theme** | **Dark Theme** | **Interpretation**                                                               |
-| ---------------------- | --------------: | -------------: | -------------------------------------------------------------------------------- |
-| Click Through Rate     |          0.2471 |         0.2645 | 🔹 *Dark Theme* has a slightly higher CTR, indicating better initial engagement. |
-| Conversion Rate        |          0.2555 |         0.2513 | 🔹 *Light Theme* leads slightly in conversions.                                  |
-| Bounce Rate            |          0.4990 |         0.5121 | 🔹 *Light Theme* retains users marginally better.                                |
-| Scroll Depth (%)       |           50.74 |          49.93 | 🔹 *Light Theme* users explore the page slightly more.                           |
-| Average Age (years)    |           41.73 |          41.33 | 🔸 User demographics are nearly identical across themes.                         |
-| Session Duration (sec) |          930.83 |         919.48 | 🔹 *Light Theme* yields slightly longer sessions.                                |
+### **🎯 Mean Values by Theme**
 
+| **Metric**                 | **Light Theme** | **Dark Theme** | **Interpretation**                                                               |
+| -------------------------- | --------------: | -------------: | -------------------------------------------------------------------------------- |
+| **Click Through Rate**     |          0.2471 |         0.2645 | 🔹 *Dark Theme* users click slightly more, suggesting higher initial engagement. |
+| **Conversion Rate**        |          0.2555 |         0.2513 | 🔹 *Light Theme* shows a marginally higher conversion rate.                      |
+| **Bounce Rate**            |          0.4990 |         0.5121 | 🔹 *Light Theme* users are slightly less likely to leave without interacting.    |
+| **Scroll Depth (%)**       |           50.74 |          49.93 | 🔹 *Light Theme* users scroll deeper on average, indicating stronger engagement. |
+| **Average Age (years)**    |           41.73 |          41.33 | 🔸 Age distribution is consistent across both themes.                            |
+| **Session Duration (sec)** |          930.83 |         919.48 | 🔹 *Light Theme* users stay slightly longer per session.                         |
 
-**T-Statiscitc and p-value summary**
+> ✅ **Summary Insight**:
+> The **Light Theme** shows small advantages in **conversion rate**, **bounce rate**, **scroll depth**, and **session duration**—all indicators of stronger engagement and effectiveness. Meanwhile, the **Dark Theme** has a slight lead in **click-through rate**, suggesting it may attract more immediate interaction. However, the differences across all metrics are relatively subtle.
 
-| Metric               | T-Statistic | P-Value | Interpretation                  |
-|----------------------|-------------|---------|----------------------------------|
-| Click Through Rate   | -1.9767     | 0.04835 | Significant difference          |
-| Conversion Rate      | 0.4745      | 0.63525 | Not significant                 |
-| Bounce Rate          | -1.2019     | 0.22969 | Not significant                 |
-| Scroll Depth         | 0.7562      | 0.44969 | Not significant                 |
-| Session Duration     | *varies*    | *varies*| *(depends on your dataset)*    |
+---
 
-> ✅ **Interpretation**: The only metric showing a significant difference is **Click Through Rate**. All other differences are likely due to chance (p-value > 0.05).
+### **📊 T-Test Results: Statistical Significance**
 
+| **Metric**             | **T-Statistic** | **P-Value** | **Interpretation**                                                 |
+| ---------------------- | --------------: | ----------: | ------------------------------------------------------------------ |
+| **Click Through Rate** |         -1.9767 |     0.04835 | ✅ *Statistically significant* — theme impacts CTR.                 |
+| **Conversion Rate**    |          0.4745 |     0.63525 | ❌ *Not significant* — difference likely due to chance.             |
+| **Bounce Rate**        |         -1.2019 |     0.22969 | ❌ *Not significant* — no strong evidence of theme impact.          |
+| **Scroll Depth**       |          0.7562 |     0.44969 | ❌ *Not significant* — scrolling behavior is similar across themes. |
+| **Session Duration**   |        *varies* |    *varies* | ℹ️ *(Depends on your dataset; update with actual results.)*        |
+
+> ✅ **Conclusion**:
+> Among all metrics, **only Click Through Rate shows a statistically significant difference** between the Light and Dark themes (p < 0.05). All other metrics show no statistically meaningful difference, implying that observed variations are likely due to random chance rather than the UI theme.
+
+---
 
 
 
