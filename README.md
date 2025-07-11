@@ -51,13 +51,24 @@ The dataset contains 1,000 records across 10 columns, with no missing values. He
 - Purchases: Whether the user purchased the book (Yes/No).
 - Added_to_Cart: Whether the user added books to the cart (Yes/No).
 
-
-### Key Question:
+### Key Questions:
 > "Does the website theme impact user behavior or conversion?"
 
 ---
 
 ## 📈 Summary of Statistical Test Results
+
+| **Metric**             | **Light Theme** | **Dark Theme** | **Interpretation**                                                               |
+| ---------------------- | --------------: | -------------: | -------------------------------------------------------------------------------- |
+| Click Through Rate     |          0.2471 |         0.2645 | 🔹 *Dark Theme* has a slightly higher CTR, indicating better initial engagement. |
+| Conversion Rate        |          0.2555 |         0.2513 | 🔹 *Light Theme* leads slightly in conversions.                                  |
+| Bounce Rate            |          0.4990 |         0.5121 | 🔹 *Light Theme* retains users marginally better.                                |
+| Scroll Depth (%)       |           50.74 |          49.93 | 🔹 *Light Theme* users explore the page slightly more.                           |
+| Average Age (years)    |           41.73 |          41.33 | 🔸 User demographics are nearly identical across themes.                         |
+| Session Duration (sec) |          930.83 |         919.48 | 🔹 *Light Theme* yields slightly longer sessions.                                |
+
+
+**T-Statiscitc and p-value summary**
 
 | Metric               | T-Statistic | P-Value | Interpretation                  |
 |----------------------|-------------|---------|----------------------------------|
